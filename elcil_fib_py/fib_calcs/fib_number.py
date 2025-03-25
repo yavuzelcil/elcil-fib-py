@@ -6,5 +6,5 @@ def recurring_fibonacci_number(number: int) -> Optional[int]:
     elif number <=1:
         return number
     else:
-    return recurring_fibonacci_number(number - 1) + \
-           recurring_fibonacci_number(number - 2)
+        return recurring_fibonacci_number(number - 1) + \
+               recurring_fibonacci_number(number - 2)
